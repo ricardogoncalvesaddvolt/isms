@@ -27,9 +27,16 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Standards (ISO/IEC 27001)',
-      items: ['standards/annex-a-mapping', 'standards/scope-and-statement-of-applicability'],
-      collapsed: true,
+      label: 'Standards',
+      items: [
+        'standards/annex-a-mapping',
+        'standards/scope-and-statement-of-applicability',
+        'standards/iso-24089-2023',
+        'standards/iso-24089-2023-amd1-2024',
+        'standards/iso-iec-27001-2022',
+        'standards/iso-sae-21434-2021',
+      ],
+      collapsed: false,
     },
     {
       type: 'category',
