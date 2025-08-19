@@ -22,8 +22,37 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'Policies',
       link: {type: 'generated-index'},
-      items: [],
       collapsed: false,
+      items: [
+        {
+          type: 'category',
+          label: 'ISO27001',
+          link: {type: 'generated-index'},
+          collapsed: false,
+          items: [
+            'policies/ISO27001/information-security-policy',
+            'policies/ISO27001/access-control-policy',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'ISO21434',
+          link: {type: 'generated-index'},
+          collapsed: false,
+          items: [
+            'policies/ISO21434/vehicle-cybersecurity-policy',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'ISO24089',
+          link: {type: 'generated-index'},
+          collapsed: false,
+          items: [
+            'policies/ISO24089/software-update-security-policy',
+          ],
+        },
+      ],
     },
     {
       type: 'category',
@@ -32,7 +61,6 @@ const sidebars: SidebarsConfig = {
         'standards/annex-a-mapping',
         'standards/scope-and-statement-of-applicability',
         'standards/iso-24089-2023',
-        'standards/iso-24089-2023-amd1-2024',
         'standards/iso-iec-27001-2022',
         'standards/iso-sae-21434-2021',
       ],
@@ -42,8 +70,11 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'Procedures (SOPs)',
       link: {type: 'generated-index'},
-      items: [],
       collapsed: true,
+      items: [
+        'procedures/user-access-provisioning',
+        'procedures/data-backup-and-recovery',
+      ],
     },
     {
       type: 'category',
