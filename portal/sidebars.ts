@@ -24,42 +24,16 @@ const sidebars: SidebarsConfig = {
       link: {type: 'generated-index'},
       collapsed: false,
       items: [
-        {
-          type: 'category',
-          label: 'ISO27001',
-          link: {type: 'generated-index'},
-          collapsed: false,
-          items: [
-            'policies/ISO27001/information-security-policy',
-            'policies/ISO27001/access-control-policy',
+            'policies/information-security-policy',
+            'policies/access-control-policy',
+            'policies/vehicle-cybersecurity-policy',
+            'policies/software-update-security-policy',
           ],
-        },
-        {
-          type: 'category',
-          label: 'ISO21434',
-          link: {type: 'generated-index'},
-          collapsed: false,
-          items: [
-            'policies/ISO21434/vehicle-cybersecurity-policy',
-          ],
-        },
-        {
-          type: 'category',
-          label: 'ISO24089',
-          link: {type: 'generated-index'},
-          collapsed: false,
-          items: [
-            'policies/ISO24089/software-update-security-policy',
-          ],
-        },
-      ],
     },
     {
       type: 'category',
       label: 'Standards',
       items: [
-        'standards/annex-a-mapping',
-        'standards/scope-and-statement-of-applicability',
         'standards/iso-24089-2023',
         'standards/iso-iec-27001-2022',
         'standards/iso-sae-21434-2021',

@@ -47,7 +47,7 @@ Generate a production build:
 npm build
 ```
 
-```
+
 
 
 ## 📄 License

@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'ISMS Addvolt Portal',
   tagline: 'Information Security Management System',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/Addvolt logo_black.jpg',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -73,7 +73,7 @@ const config: Config = {
           label: 'Docs',
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/ricardogoncalvesaddvolt/isms/tree/main/portal',
           label: 'GitHub',
           position: 'right',
         },
@@ -87,3 +87,4 @@ const config: Config = {
 };
 
 export default config;
+
